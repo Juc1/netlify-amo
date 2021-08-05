@@ -1,0 +1,160 @@
+.eighty {
+	padding:0 6px;
+}
+
+@media screen and (min-width: 1200px) {
+.eighty {
+width:80%;
+margin:auto;
+}
+}
+
+
+body, .wrapper {
+	background:black;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.yellow {
+color:yellow;
+}
+
+
+:root {
+--plyr-color-main: grey;
+}
+
+@media screen and (min-width: 1200px) {
+.flex-1-3 {
+	display:flex;
+	border:4px dashed red;
+}	
+}
+
+.cd {
+border:2px solid lime;
+margin-bottom:48px;
+}
+
+.cd-reviews {
+margin:28px 0;
+}
+
+.flex-1-3 .left {
+flex:1;
+}
+
+.flex-1-3 .right {
+flex:3;
+}
+
+.mp3-track {
+	border:2px solid pink;
+}
+
+#header {
+	background:grey;
+	border-bottom:1px solid yellow;
+	width:100%;
+	padding:12px 0;
+}
+
+@media screen and (min-width:480px) {
+#header {	
+	padding:12px 10%;
+}
+}
+ 
+#hamburger {
+	width:20%;
+	float:right;
+	border:1px solid pink;
+}
+
+@media screen and (min-width:480px) {
+	#hamburger {
+	display:none;
+}
+}
+
+ul#menu {
+	float:right;
+}
+
+ul#menu li { 
+text-transform:uppercase;
+}
+
+@media screen and (min-width:480px) {
+ul#menu li { 
+display:inline-block;
+}
+}
+
+ul#menu li a { 
+color:white;
+}
+
+h2 {
+	text-align:center;
+	color:white;
+	font-weight:normal;
+}
+
+h3 {
+	text-align:center;
+	color:yellow;
+	font-weight:normal;
+	font-size:1.3em;
+	text-decoration:underline;
+}
+
+
+#footer {
+	text-align:center;
+	padding:12px 0;
+}
+
+#footer-fixed {
+	background:grey;
+	border-top:1px solid yellow;
+	width:100%;
+	text-align:center;
+	padding:12px 0;
+}
+
+.cd-info {
+	text-align:center;
+}
+
+.plyr.plyr--audio {
+    max-width: 360px;
+}
+
+.plyr {
+    margin: 16px 0;
+	border-radius: 0px;
+}
+	
+.plyr--audio .plyr__controls {
+padding:4px;
+}
+	
+	
+	#music-work {
+		border-top:2px solid yellow;
+		padding-top:32px;
+	}
+	
+	.press-review::before {
+    content: url(../files/images/quotes-start.png);
+    float: left;
+    padding-right: 12px;
+	}
+	
+	
+	.press-review {
+    padding: 16px 0;
+    border-bottom: 1px solid grey;
+}
