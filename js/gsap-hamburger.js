@@ -8,3 +8,4 @@ tlham.to("#burger-wrapper", {display: "block", opacity: 1,})
 document.querySelectorAll("#hamburger").forEach(sausage => {
   sausage.addEventListener("click", () => tlham.reversed() ? tlham.play() : tlham.reverse() );
 });
+const players = Plyr.setup('.plyr-player');
